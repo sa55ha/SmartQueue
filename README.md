@@ -1,17 +1,18 @@
-# smartqueue
+# SmartQueue
 
-A new Flutter project.
+SmartQueue este o aplicatie dezvoltata in Flutter pentru gestionarea programarilor prin generarea unui bon digital (numar unic).
+Utilizatorul se autentifica (demo), selecteaza o locatie si un serviciu, alege data si ora, iar aplicatia salveaza programarea si afiseaza bonul asociat.
 
-## Getting Started
+## Tehnologii utilizate
+- Flutter
+- Dart
+- shared_preferences (persistenta locala)
+- intl (formatarea datei si orei)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+## Functionalitati
+- Autentificare utilizator (demo)
+- Creare programare (locatie, serviciu, data, ora)
+- Generare bon digital cu numar unic
+- Afisare lista programari
+- Mod Admin pentru gestionarea statusului
+- Persistenta datelor dupa restart
